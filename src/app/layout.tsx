@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
-import { instrumentSerif, manrope, plexMono } from './fonts'
+import { bodoniModa, manrope, plexMono } from './fonts'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lewismugo.com'
 const description = 'Lewis Mugo — web developer, software builder and data science student in Thika, Kenya. Case studies of real, working software, documented honestly.'
@@ -70,7 +70,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${instrumentSerif.variable} ${manrope.variable} ${plexMono.variable}`}>
+    <html lang="en" className={`${bodoniModa.variable} ${manrope.variable} ${plexMono.variable}`}>
       <body className="min-h-screen bg-background font-sans text-text antialiased">
         <a
           href="#main-content"

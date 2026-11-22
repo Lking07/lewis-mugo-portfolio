@@ -1,9 +1,11 @@
 import localFont from 'next/font/local'
 
-export const instrumentSerif = localFont({
+export const bodoniModa = localFont({
   src: [
-    { path: './fonts/instrument-serif-regular.woff2', weight: '400', style: 'normal' },
-    { path: './fonts/instrument-serif-italic.woff2', weight: '400', style: 'italic' },
+    { path: './fonts/bodoni-moda-regular.ttf', weight: '400', style: 'normal' },
+    { path: './fonts/bodoni-moda-regular-italic.ttf', weight: '400', style: 'italic' },
+    { path: './fonts/bodoni-moda-bold.ttf', weight: '700', style: 'normal' },
+    { path: './fonts/bodoni-moda-bold-italic.ttf', weight: '700', style: 'italic' },
   ],
   variable: '--font-display',
   display: 'swap',
